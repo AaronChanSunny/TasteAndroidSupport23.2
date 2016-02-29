@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        ImageView imageView = (ImageView) findViewById(R.id.android);
+        ImageView imageView = (ImageView) findViewById(R.id.star);
         Drawable drawable = imageView.getDrawable();
         if (drawable instanceof Animatable) {
             ((Animatable) drawable).start();
