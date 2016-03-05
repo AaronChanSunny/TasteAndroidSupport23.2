@@ -1,4 +1,4 @@
-package com.aaron.vectordrawable;
+package com.aaron.tasteandroidsupport;
 
 import org.junit.Test;
 
