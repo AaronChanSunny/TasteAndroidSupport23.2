@@ -1,5 +1,5 @@
 # Android Support23.2，带我们进入矢量图时代
-##　1.背景
+## 1. 背景
 2月底，谷歌发布了[Android Support Library 23.2](http://android-developers.blogspot.jp/2016/02/android-support-library-232.html)。最新的支持库特性包括以下：
 - Support Vector Drawables and Animated Vector Drawables
 - AppCompat DayNight theme
@@ -7,14 +7,14 @@
 - RecyclerView `WRAP_CONTENT `
 
 接下来，让我们一步步建立示例代码库。
-## 2.全民矢量图时代
+## 2. 全民矢量图时代
 传统Android开发中，为了适配不同屏幕分辨率的手机，我们需要建立多个`drawable`目录，分别存放一套图标资源文件，使得App在不同手机上都达到最优的现实效果。
 
 ![](https://github.com/AaronChanSunny/TasteAndroidSupport23.2/blob/master/screenshot/2.PNG?raw=true)
 
 如果引入矢量图，我们只需要定义一个文件就能适配所有屏幕，简直简单粗暴。我们先通过一个简单例子，体验一下矢量图的魅力。
 
-### 2.1新建工程
+### 2.1 新建工程
 使用Android Studio创建一个新工程。为了引入最新支持库，需要在配置`app/build.gradle`：
 
 ```
@@ -42,7 +42,7 @@
  }  
 ```
 
-### 2.2布局文件
+### 2.2 布局文件
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -78,13 +78,13 @@
 
 > 对于矢量图，指定`src`需要使用`app:srcCompat`
 
-### 2.3效果对比
+### 2.3 效果对比
 
 ![](https://github.com/AaronChanSunny/TasteAndroidSupport23.2/blob/master/screenshot/1.PNG?raw=true)
 
 可以看出，即使将ImageView的尺寸放大，矢量图也不会是真，这就是矢量图的意义。更重要的是，我们不再需要对图标做5套资源文件了，不仅仅减少了工作量，更重要是能减少最终发布时APK大小。
 
-### 2.4彩蛋
+### 2.4 彩蛋
 
 Android Studio已经集成Material Design所有图标，这里说明下使用方法：
 
