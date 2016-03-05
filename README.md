@@ -10,7 +10,7 @@
 ## 2.全民矢量图时代
 传统Android开发中，为了适配不同屏幕分辨率的手机，我们需要建立多个`drawable`目录，分别存放一套图标资源文件，使得App在不同手机上都达到最优的现实效果。
 
-![]()
+![](https://github.com/AaronChanSunny/TasteAndroidSupport23.2/blob/master/screenshot/2.PNG?raw=true)
 
 如果引入矢量图，我们只需要定义一个文件就能适配所有屏幕，简直简单粗暴。我们先通过一个简单例子，体验一下矢量图的魅力。
 
@@ -80,7 +80,7 @@
 
 ### 2.3效果对比
 
-![]()
+![](https://github.com/AaronChanSunny/TasteAndroidSupport23.2/blob/master/screenshot/1.PNG?raw=true)
 
 可以看出，即使将ImageView的尺寸放大，矢量图也不会是真，这就是矢量图的意义。更重要的是，我们不再需要对图标做5套资源文件了，不仅仅减少了工作量，更重要是能减少最终发布时APK大小。
 
@@ -90,5 +90,5 @@ Android Studio已经集成Material Design所有图标，这里说明下使用方
 
 选中`res`目录，鼠标右键`New`，选择`Vector Assert`，即可打开Vector Studio：
 
-![]()
+![](https://github.com/AaronChanSunny/TasteAndroidSupport23.2/blob/master/screenshot/3.PNG?raw=true)
 
